@@ -139,7 +139,7 @@ class GameLogic(Thread):
                 i, j, val = tup
                 cells[i, j] = val
 
-        print(f'Loop in {time.time() - start}')
+        # print(f'Loop in {time.time() - start}')
 
     def reset(self, is_init=False):
         g.reset(is_init)

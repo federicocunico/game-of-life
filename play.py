@@ -20,7 +20,7 @@ screen = pygame.display.set_mode(size)
 
 clock = pygame.time.Clock()
 
-speed = 60  # FPS
+speed = 20  # FPS
 
 # Grid params
 base_offset = 15
@@ -28,6 +28,7 @@ grid_rect_size = 10
 
 
 def start_game_loop():
+    print("Press 'R' to reset the game!")
     while True:
         # delta_time = clock.get_time()
 
